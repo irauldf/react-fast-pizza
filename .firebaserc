@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "varios-206707"
+  },
+  "targets": {
+    "varios-206707": {
+      "hosting": {
+        "react-fast-pizza": [
+          "react-fast-pizza"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
