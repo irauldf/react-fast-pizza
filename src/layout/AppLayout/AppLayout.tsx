@@ -1,7 +1,7 @@
-import { CartOverviewPage } from "@/features/cart";
 import { Header } from "../Header/Header";
 import { Outlet, useNavigation } from "react-router-dom";
 import { Loader } from "@/shared/components/Loader";
+import { CartOverview } from "@/features/cart";
 
 export function AppLayout() {
   const navigation = useNavigation();
@@ -19,7 +19,7 @@ export function AppLayout() {
         </main>
       </div>
 
-      <CartOverviewPage />
+      <CartOverview />
     </div>
   );
 }

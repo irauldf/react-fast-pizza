@@ -4,11 +4,6 @@ import { getTotalCartPrice, getTotalCartQuantity } from "../../cartSlice";
 import { formatCurrency } from "@/utils";
 
 export function CartOverview() {
-  // const orderCart = useAppSelector((store) => store.cart);
-  
-  // const totalCartQuantity = getTotalCartQuantity(orderCart);
-  // const totalCartAmount = getTotalCartPrice(orderCart);
-
   const totalCartQuantity = useAppSelector(getTotalCartQuantity);
   const totalCartAmount = useAppSelector(getTotalCartPrice);
 

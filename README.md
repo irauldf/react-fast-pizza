@@ -221,7 +221,7 @@ src/
 │   │   │   └── UpdateCartQuantity/
 │   │   │
 │   │   ├── pages/
-│   │   │   └── CartOverviewPage.tsx
+│   │   │   └── CartPage.tsx
 │   │   │
 │   │   ├── schemas/
 │   │   │   └── cartItem.schema.ts
